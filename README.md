@@ -26,9 +26,11 @@ Preliminary results of training a model consisting of a simple single layer LSTM
 
 Results in an ARIMA forecast are highly inaccurate because the data is not stationary. Differencing transformations remove much of the data's granularity. 
 
+<p float="left">
+  <img src="https://github.com/anngo-1/wheat-pricing-prediction/assets/75955073/f4d5dd14-df81-4b96-b490-8012f7278f8b" width="400" />
+  <img src="https://github.com/anngo-1/wheat-pricing-prediction/assets/75955073/8f78496e-3e55-4f07-97b0-15bab0ab267f" width="385" />
+</p>
 
-<img src="https://github.com/anngo-1/wheat-pricing-prediction/assets/75955073/f4d5dd14-df81-4b96-b490-8012f7278f8b" width="500">
-<img src="https://github.com/anngo-1/wheat-pricing-prediction/assets/75955073/8f78496e-3e55-4f07-97b0-15bab0ab267f" width="485">
 <br>
 <br>
 Using the LSTM, we can predict wheat prices in the future. We predict the wheat price for the next 80 days:
