@@ -19,7 +19,7 @@ A LSTM and ARIMA model is trained to conduct time series forecasting on the moda
 The price of wheat is represented in RS/quintal, where RS is an Indian rupee and quintal is 100kg. After cleaning the data and using linear interpolation to fill in missing days, a visualization of ~6600 daily price data shows a general trend of increase in price since 2005.
 
 
-![download (1)](https://github.com/anngo-1/wheat-pricing-prediction/assets/75955073/8414b849-3171-49c2-bb5f-4fe966180e9a)
+![image](https://github.com/anngo-1/wheat-pricing-prediction/assets/75955073/0fa7589d-72b5-4adf-9d63-826ddc899589)
 
 
 Preliminary results of training a model consisting of a simple single layer LSTM show promise in predicting wheat prices. Mean squared error is high due to the model being trained to predict high time steps, which may disappear after adding more LSTM layers to the model, increasing model complexity.
@@ -27,14 +27,14 @@ Preliminary results of training a model consisting of a simple single layer LSTM
 Results in an ARIMA forecast are highly inaccurate because the data is not stationary. Differencing transformations remove much of the data's granularity. 
 
 
-<img src="https://github.com/anngo-1/wheat-pricing-prediction/assets/75955073/4df29c9c-5f06-4bbd-9056-361565a7e3a1" width="500">
-<img src="https://github.com/anngo-1/wheat-pricing-prediction/assets/75955073/32d67b00-01c4-4209-85f8-7c81c991430b" width="485">
+<img src="https://github.com/anngo-1/wheat-pricing-prediction/assets/75955073/f4d5dd14-df81-4b96-b490-8012f7278f8b" width="500">
+<img src="https://github.com/anngo-1/wheat-pricing-prediction/assets/75955073/8f78496e-3e55-4f07-97b0-15bab0ab267f" width="485">
 <br>
 <br>
 Using the LSTM, we can predict wheat prices in the future. We predict the wheat price for the next 80 days:
 <br>
 <br>
-<img src="https://github.com/anngo-1/wheat-pricing-prediction/assets/75955073/1a321c43-a3ca-4f97-94ae-0e508383da7a" width="900">
+<img src="https://github.com/anngo-1/wheat-pricing-prediction/assets/75955073/fecad770-5675-4858-b602-81d33eddafa1" width="900">
 
 ## Conclusion ##
 Forecasting could be highly effective in understanding more about food insecurity. Highly accurate forecasts of 10-30 days could assist local govenments in understanding how weather events affect food availability through the lens of the consumer. Grains like wheat, which make up most of the Indian diet, would be great targets for forecasting.
